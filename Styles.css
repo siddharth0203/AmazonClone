@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    height: 60px;
+    width: 100px;
+    display: flex; /* Make nav-logo a flex container */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+  
+.box1-1 {
+  /* Your existing logo styles */
+  height: 60%;
+  width: 80%;
+  margin-top: 12px;
+  background-image: url("images.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.box1-1:hover, .box2:hover, .box4:hover, .box5:hover, .box6:hover {
+    border: 2px solid white;
+  }
+
+.box2-1{
+    color: white;
+    font-size: 0.85rem;
+    font-weight: normal;
+    margin-left: 13px;
+}
+.box2-2{
+    display: flex;
+    align-items: center;
+}
+.box2-3{
+    font-weight: 600;
+    margin-left: 1px;
+}
+
+
+.box3{
+    display: flex;
+    justify-content: center;
+}
+.box3:hover{
+    border: 3px solid orange;
+    border-radius: 6px;
+}
+
+select{
+    height: 45px;
+    width: 45px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    text-align: center;
+    border: none;
+}
+
+input{
+    width: 700px;
+    height: 45px;
+    border: none;
+    font-size: 0.95rem;
+}
+.box3-3{
+    background-color: rgb(255, 215, 0);
+    color: black;
+    height: 45px;
+    width: 40px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.box4-1, .box5-1, .box6 p{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+span{
+    font-size: 0.85rem;
+}
+.box6{
+    display: flex;
+    align-items: self-end;
+}
+.box6 i{
+    font-size: 30px;
+}
+
+/* Panel */
+.box7{
+    height: 40px;
+    width: 100%;
+    color: white;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box7-1{
+    margin-right: 185px;
+}
+.box7-2{
+    width: 74%;
+}
+.box7-2 p{
+    display: inline;
+    font-size: 0.95rem;
+    margin-left: 30px;
+    padding:10px;
+    border-radius: 2px;
+}
+.box7-1:hover,.box7-2 p:hover{
+    border: 2px solid white;
+}
+
+.section{
+    background-image: url("https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg");
+    height: 600px;
+    background-size: cover;
+    
+}
+.message{
+    position: relative;
+    margin-right: 20px;
+    top: 250px;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.95rem;
+}
+.message a{
+    text-decoration: none; 
+}
+
+/* Styling for the container class */
+.imagesbox1{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.container {
+    height: 220px;
+    width: 20%;
+    position: relative;
+    top: 300px;
+    background-color: white;
+}
+
+.box8{
+    background-size: cover;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2023/img/Consumer_Electronics/XCM_CUTTLE_1546843_2940864_379x304_1X_en_US._SY304_CB613273467_.jpg");
+}
+.box9{
+    background-size: cover;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/us-manual-merchandising/XCM_CUTTLE_1622894_3373440_379x304_1X_en_size1_US._SY304_CB597469214_.jpg");
+}
+.box10{
+    background-size: cover;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg");
+}
+.box11{
+    background-size: cover;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg");
+}
+
+
+.footer{
+    height: 500px;
+    margin-top: 15px;
+}
